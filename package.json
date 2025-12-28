@@ -40,7 +40,27 @@
       "Podcasts",
       "Discover Weekly",
       "Social features"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/spotify"
+    },
+    "featured": true,
+    "tags": [
+      "media",
+      "audio",
+      "video",
+      "spotify"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/spotify/issues",
+    "changelog": "https://github.com/zos-apps/spotify/releases"
   },
   "scripts": {
     "build": "tsup",
