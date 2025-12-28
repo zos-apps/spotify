@@ -20,7 +20,27 @@
         "height": 700
       },
       "resizable": true
-    }
+    },
+    "about": "Music streaming with millions of songs, podcasts, and playlists.",
+    "help": [
+      "Search for music",
+      "Create playlists",
+      "Follow artists"
+    ],
+    "docs": "https://zos-apps.github.io/spotify",
+    "site": "https://github.com/zos-apps/spotify",
+    "shortcuts": [
+      "Space Play/Pause",
+      "← Previous",
+      "→ Next"
+    ],
+    "features": [
+      "Music streaming",
+      "Playlists",
+      "Podcasts",
+      "Discover Weekly",
+      "Social features"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +73,13 @@
     "spotify",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
