@@ -1,50 +1,54 @@
 # 🎵 Spotify
 
-Music streaming service
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/spotify/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/spotify)
 
-## Category
-`media`
+> Music streaming service
+
+**[Documentation](https://zos-apps.github.io/spotify)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
 
 ## Installation
 
 ```bash
-npm install @anthropic/spotify
-# or
-pnpm add @anthropic/spotify
+npm install github:zos-apps/spotify
 ```
+
+Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
 
 ## Usage
 
 ```tsx
-import App from '@anthropic/spotify';
+import Spotify from '@zos-apps/spotify';
 
-function MyComponent() {
-  return <App onClose={() => console.log('closed')} />;
+function App() {
+  return <Spotify />;
 }
 ```
 
-## Development
+## Features
 
-```bash
-# Install dependencies
-pnpm install
+- Native zOS window integration
+- Dark mode support
 
-# Build
-pnpm build
+- Context menu actions
+- Menu bar integration
 
-# Watch mode
-pnpm dev
-```
+## Category
 
-## zOS Integration
+**Media**
 
-This app is designed to run within zOS, a web-based operating system. It follows the zOS app specification with:
+## Permissions
 
-- Standalone React component
-- TypeScript support
-- Tailwind CSS styling
-- Window management integration
+- `network`
+
+## Links
+
+- [Documentation](https://zos-apps.github.io/spotify)
+- [GitHub Repository](https://github.com/zos-apps/spotify)
+- [Report Issues](https://github.com/zos-apps/spotify/issues)
+- [All zOS Apps](https://github.com/zos-apps)
 
 ## License
 
-MIT
+MIT © [Hanzo AI](https://hanzo.ai)
