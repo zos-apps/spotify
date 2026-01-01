@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface SpotifyProps { onClose: () => void; }
 
@@ -20,10 +20,10 @@ const songs = [
   { title: 'Believer', artist: 'Imagine Dragons', album: 'Evolve', duration: '3:24', plays: '2.3B' },
 ];
 
-const Spotify: React.FC<SpotifyProps> = ({ onClose }) => {
+const Spotify: React.FC<SpotifyProps> = ({ onClose: _onClose }) => {
   const [playing, setPlaying] = useState(false);
   const [currentSong, setCurrentSong] = useState(songs[0]);
-  const [progress, setProgress] = useState(45);
+  const [progress, _setProgress] = useState(45);
 
   return (
     <div className="h-full flex flex-col bg-black text-white">
